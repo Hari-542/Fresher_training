@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "ename": "hari",
+        "salary": "10000",
+        "dept ": "BDA"
+    },
+    {
+        "id": "2",
+        "ename": "tamil",
+        "salary": "10000",
+        "dept ": "backend"
+    },
+    {
+        "id": "3",
+        "ename": "kiran",
+        "salary": "10000",
+        "dept ": "frontend"
+    },
+    {
+        "id": "4",
+        "ename": "ali",
+        "salary": "10000",
+        "dept ": "sql"
+    }
+]
