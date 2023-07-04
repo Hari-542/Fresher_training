@@ -1,0 +1,8 @@
+2023-07-04 18:00:17,578:DEBUG:__main__:debug
+2023-07-04 18:00:17,578:INFO:__main__:info
+2023-07-04 18:00:17,578:WARNING:__main__:warning
+2023-07-04 18:00:17,578:ERROR:__main__:error
+2023-07-04 18:00:17,578:CRITICAL:__main__:critical
+2023-07-04 18:02:55,126:WARNING:__main__:warning
+2023-07-04 18:02:55,126:ERROR:__main__:error
+2023-07-04 18:02:55,126:CRITICAL:__main__:critical

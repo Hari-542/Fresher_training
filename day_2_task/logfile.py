@@ -1,0 +1,13 @@
+import logging
+logger=logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+fhandler = logging.FileHandler('log.txt')
+fhandler.setLevel(logging.WARNING)
+formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s')
+fhandler.setFormatter(formatter)
+logger.addHandler(fhandler)
+logger.debug("debug")
+logger.info("info")
+logger.warning("warning")
+logger.error("error")
+logger.critical("critical")
