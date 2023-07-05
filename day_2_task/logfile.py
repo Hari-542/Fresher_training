@@ -1,7 +1,7 @@
 import logging
+path=input("Enter the path:")
 logger=logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-fhandler = logging.FileHandler('log.txt')
+fhandler = logging.FileHandler(filename=path,mode="w")
 fhandler.setLevel(logging.WARNING)
 formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s')
 fhandler.setFormatter(formatter)
