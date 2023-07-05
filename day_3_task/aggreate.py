@@ -1,0 +1,11 @@
+import pandas as  pd
+path1=input("enter the csv file path 1:")
+path2=input("enter the csv file path 2:")
+destination_path=input("Enter destination csv file path:")
+emp_csv=pd.read_csv(path1)
+exp_csv=pd.read_csv(path2)
+merge_csv=pd.merge(emp_csv,exp_csv,on="id",how="inner").fillna("NaN")
+k=pd.DataFrame(merge_csv)
+k['avg_perform']=k.loc[0:,["jan","feb","mar","apr","may","jun","jul"]].mean(axis=1)
+k.to_csv(destination_path)
+print(k)

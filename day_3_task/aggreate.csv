@@ -1,0 +1,4 @@
+,id,ename,salary,dept ,jan,feb,mar,apr,may,jun,jul,avg_perform
+0,1,hari,10000,BDA,3,4,5,3,7,5,7,4.857142857142857
+1,2,tamil,10000,backend,3,5,3,5,3,6,8,4.714285714285714
+2,3,kiran,10000,frontend,5,5,3,5,4,6,8,5.142857142857143
