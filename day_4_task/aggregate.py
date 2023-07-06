@@ -1,0 +1,15 @@
+import pandas as pd
+
+df=pd.read_csv('student.csv')
+print("Sum of all student's mark:",df['mark'].sum())
+print("no of students:",df['id'].count())
+print("Avg of all student's mark:",df['mark'].mean())
+print("median of all student's mark:",df['mark'].median())
+print("min of all student's mark:",df['mark'].min())
+print("max of all student's mark:",df['mark'].max())
+print ("\ngroup by function\n",df.groupby(['class','gender']).count()[['id','name']])
+print("\nUNIQUE FUNCTION\nunique marks\n",df["mark"].unique())
+print("\nFilter rows and columns\n",df[(df['class'] == 'Five') & (df['mark']>50)]) 
+print("\nCheck null \n",df[df['mark'].isnull()])
+print("\nRange\n",df[df['mark'].between(50,60)])
+print("\nRegex function\n",df[df['name'].str.contains(r'n$')])
