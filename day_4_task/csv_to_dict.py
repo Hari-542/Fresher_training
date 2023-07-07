@@ -7,4 +7,4 @@ with open('employee.csv','r') as data:
         d[k]=i
 
 find=input("enter key:")
-print(value[find])
+print(d[find])
