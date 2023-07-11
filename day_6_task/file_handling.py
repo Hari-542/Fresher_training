@@ -52,5 +52,4 @@ for i in range(len(pdf)):
 
 #image to pdf
 image1 = Image.open('pdf_to_image0.jpg')
-outputImage = image1
-outputImage.save('image_to_pdf.pdf')
+image1.save('image_to_pdf.pdf')
